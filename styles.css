@@ -20,38 +20,125 @@ time, mark, audio, video {
 }
 
 body{
-    background-color: black;
+    background-color: #E9AFA3;
 }
 main{
+    color: black;
+    margin:20px;
+    border-radius:5%;
+    background-color: #F9DEC9;
+    padding:20px;
+    box-shadow: 10px 5px 5px black;
+}
+#historia{
     text-align: center;
-    padding-top: 20px;
-    color: white;
     padding-bottom: 20px;
 }
-.seccionUno header{
+#historia header{
     font-size: 2rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-bottom: 20px;
 }
-.seccionUno h1{
+.historia{
+    border-radius: 10%;
+    background-color: #F9DEC9;
+    padding:20px;
+    display:inline-block;
+    width:85%;
+}
+.historia h1{
     font-size: 2rem;
     padding-bottom: 20px;
 }
-.seccionUno p{
+.historia p{
     text-align: justify;
     padding-bottom: 20px;
 }
-.seccionUno img{
-    border-radius: 50%;
-    width:20%;
+.historia img{
+    border-radius: 10%;
+    width: 50%;
+    height:40%;
+}
+#carrera{
+    text-align: center;
     padding-bottom: 20px;
 }
-.seccionDos{
-    color:white;
+.carrera{
+    border-radius: 10%;
+    background-color: #F9DEC9;
+    padding:20px;
+    display:inline-block;
+    width:85%;
 }
-.seccionDos h3{
-    font-size: 1.2rem;
+.carrera h2{
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+    text-align: left;
 }
+.carrera p{
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.carrera h3{
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+    text-align: left;
+}
+#contribuciones{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.contribuciones{
+    border-radius: 10%;
+    background-color: #F9DEC9;
+    padding:20px;
+    display:inline-block;
+    width:85%;
+}
+.contribuciones h2{
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+    text-align: left;
+}
+.contribuciones h3{
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 20px;
+    text-align: left;
+}
+.contribuciones ul{
+    list-style: none;    
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+#discografía{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.discografía{
+    border-radius: 10%;
+    background-color: #F9DEC9;
+    padding:20px;
+    display:inline-block;
+    width:85%;
+}
+.discografía h2{
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+.discografía h3{
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.discografía ol{
+    list-style: none;    
+}
+
 footer{
+    display:block;
+    background-color: black;
     color: white;
+    text-align: center;
 }
