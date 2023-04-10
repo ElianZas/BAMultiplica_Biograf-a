@@ -1,0 +1,57 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+    background-color: black;
+}
+main{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 20px;
+}
+.seccionUno header{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 20px;
+}
+.seccionUno h1{
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+.seccionUno p{
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.seccionUno img{
+    border-radius: 50%;
+    width:20%;
+    padding-bottom: 20px;
+}
+.seccionDos{
+    color:white;
+}
+.seccionDos h3{
+    font-size: 1.2rem;
+}
+footer{
+    color: white;
+}
