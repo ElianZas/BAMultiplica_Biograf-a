@@ -28,56 +28,52 @@ main{
     border-radius:5%;
     background-color: #F9DEC9;
     padding:20px;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 2px 2px 5px black;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 0.9rem;
+    text-align: justify;
 }
 #historia{
     text-align: center;
-    padding-bottom: 20px;
 }
 #historia header{
     font-size: 2rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-bottom: 20px;
+    font-weight: bold;
 }
 .historia{
-    border-radius: 10%;
-    background-color: #F9DEC9;
     padding:20px;
     display:inline-block;
     width:85%;
 }
 .historia h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-bottom: 20px;
-}
-.historia p{
-    text-align: justify;
-    padding-bottom: 20px;
+    font-weight: normal;
+    font-weight: bold;
 }
 .historia img{
-    border-radius: 10%;
-    width: 50%;
-    height:40%;
+    border-radius: 50%;
+    width:30%;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: #E9AFA3;
 }
 #carrera{
     text-align: center;
-    padding-bottom: 20px;
 }
 .carrera{
-    border-radius: 10%;
-    background-color: #F9DEC9;
     padding:20px;
     display:inline-block;
     width:85%;
 }
-.carrera h2{
+h2{
     font-size: 1.5rem;
     padding-bottom: 20px;
     text-align: left;
-}
-.carrera p{
-    text-align: justify;
-    padding-bottom: 20px;
+    font-weight: bold;
 }
 .carrera h3{
     font-size: 1.5rem;
@@ -86,56 +82,62 @@ main{
 }
 #contribuciones{
     text-align: center;
-    padding-bottom: 20px;
 }
 .contribuciones{
-    border-radius: 10%;
-    background-color: #F9DEC9;
     padding:20px;
     display:inline-block;
     width:85%;
 }
 .contribuciones h2{
-    font-size: 1.5rem;
-    padding-bottom: 20px;
-    text-align: left;
+    text-align: center
 }
 .contribuciones h3{
-    font-size: 18px;
+    font-size: 0.9rem;
     font-weight: normal;
     padding-bottom: 20px;
-    text-align: left;
+    text-align: center;
 }
 .contribuciones ul{
     list-style: none;    
-    text-align: left;
+    text-align: center;
+    font-size: 0.9rem;
     padding-bottom: 20px;
 }
 
 #discografía{
     text-align: center;
-    padding-bottom: 20px;
 }
 .discografía{
-    border-radius: 10%;
-    background-color: #F9DEC9;
     padding:20px;
     display:inline-block;
     width:85%;
 }
 .discografía h2{
-    font-size: 1.5rem;
-    padding-bottom: 20px;
+    text-align: center;
 }
 .discografía h3{
     font-size: 18px;
-    font-weight: normal;
+    font-weight: bold;
     padding-bottom: 20px;
 }
 .discografía ol{
-    list-style: none;    
+    list-style: none;  
+    font-size: 0.9rem;  
 }
-
+#videos{
+    text-align: center;
+}
+.videos h2{
+    text-align: center;
+}
+iframe{
+    width:400px;
+}
+hr{
+    background-color: black;
+    height:1px;
+    border: none;
+}
 footer{
     display:block;
     background-color: black;
