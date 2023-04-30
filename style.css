@@ -1,0 +1,347 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body, .contenedor, .nav{
+    width:100%;
+}
+body{
+    left: 0px;
+    top: 60px;
+    background-color: #121212;
+    font-family: 'Montserrat', sans-serif;
+}
+.contenedor{
+    left: 0px;
+    top: 60px;
+    background: linear-gradient(180deg, rgba(65, 65, 65, 0.4) 0%, rgba(65, 65, 65, 0.1) 100%);
+}
+
+/*Home*/
+
+nav{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F9DEC9;
+    height:60px;
+    position:fixed;
+
+}
+.headerHome{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width:10%;
+    background-color: #F9DEC9;
+}
+
+.menuHome{
+    display:flex;
+    align-items: center;
+}
+.menuHome ul{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    gap:40px;
+}
+.menuHome ul li{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    background-color:#F9DEC9 ;
+    border-radius:10px;
+    height:40px;
+    transition: background-color .5s;
+}
+.menuHome ul li:hover{
+    background: #B19E8F;
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+.mainindex main{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 100px 32px 32px 32px;
+    gap:32px;
+    
+}
+.historia{
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.historia h1, .acercade h1, .main_envivos h1, .main_contacto h1{
+    color: #F9DEC9;    
+    font-size: 3rem;
+    font-weight: bold;
+}
+.historia p, .carrera p{
+    color: #FDF5EE;
+    text-align: justify;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 8px;
+    width:100%;
+}
+.botones span, .formulario button{
+    padding: 12px 24px;
+    background: #F9DEC9;
+    transition: background-color .3s;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.botones span:hover{
+    background:#B19E8F;
+}
+.botones span:active{
+    background:#FAE5D4;
+}
+main .imagen img{
+    width:300px;
+    border-radius: 30px;
+}
+.discografia h2, .contribuciones h2, .contacto_masInfo h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #F9DEC9;  
+}
+
+.cards{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 20px;
+}
+.card1, .card2, .card3{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+    gap:30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: justify;
+    background: linear-gradient(180deg, rgba(65, 65, 65, 0.6) 0%, rgba(65, 65, 65, 0.1) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+}
+.card1 h3,.card2 h3,.card3 h3, .contribuciones h3{
+    font-weight: normal;
+    color:#F9DEC9;
+}
+.card1 img,.card2 img,.card3 img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card1 p,.card2 p,.card3 p{
+    padding: 0px 40px 0px 40px;
+    color:white;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+
+/*Acerca de*/
+.main_acercade main{
+    gap:32px;
+    display:flex;
+    flex-direction: column;
+    padding: 100px 32px 32px 32px;
+}
+.acercade{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:32px;
+}
+.acercade img{
+    width: 300px;
+    border-radius: 30px;
+}
+.contribuciones article{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px 100px 0px;
+    gap:20px;
+
+}
+.contribuciones h3{
+    display:inline;
+}
+.contribuciones ul{
+    display:inline;
+    list-style: none;
+    padding-bottom: 20px;
+}
+.contribuciones ul li{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:800px;
+    height:40px;
+    background-color:#B19E8F;
+    transition: background-color .5s;
+}
+.contribuciones ul li a{
+    transition: background-color .5s;
+    font-weight: normal;
+    color: black;
+}
+.contribuciones ul li:hover{
+    background-color: #695D54;
+}
+.contribuciones ul li a:hover{
+    color:white;
+}
+
+.main_envivos{
+    padding: 100px 32px 32px 32px;
+    text-align: center;
+}
+.carousel.slide{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    position:static;
+    padding-top: 32px;
+}
+.carousel-inner{
+    width:920px;
+    height:580px;
+    position:static;
+}
+.carousel-item.active{
+    width:920px;
+    height:580px;
+    position:static;
+}
+.botonesSlide button {
+    margin-top: 300px;
+}
+
+/*contacto*/
+.main_contacto{
+    padding: 100px 32px 32px 32px;
+}
+.main_contacto h1{
+    text-align: center;
+    padding-bottom: 32px;
+}
+.contacto_contenedor{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.formulario{
+    grid-column: 1/2;
+    grid-row: 2/2;
+}
+form{
+    width:100%;
+    display:flex;
+    flex-flow: column;
+    padding:50px;
+    gap:30px;
+    background: linear-gradient(180deg, rgba(65, 65, 65, 0.6) 0%, rgba(65, 65, 65, 0.1) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+.contacto_masInfo{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:50px;
+}
+.contacto_masInfo p{
+    width:200px;
+    color:white;
+    font-size: 1rem;
+}
+.formulario p label{
+    padding-bottom: 10px;
+    width:80%;
+    color:white;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.formulario input{
+    width:70%;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-bottom: 1px solid #F9DEC9;
+    background: none;
+}
+.checkbox{
+    width:60%;
+}
+.checkbox input{
+    width:4%;
+}
+.mensaje textarea{
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    border: 1px solid #F9DEC9;
+    border-style: dashed;
+    background: #121212;
+}
+form .botones{
+    width:80%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: #695D54;
+    color:white;
+}
